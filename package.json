@@ -29,6 +29,7 @@
   "dependencies": {},
   "devDependencies": {
     "@nrwl/angular": "^9.1.2",
+    "@nrwl/next": "^9.1.2",
     "@nrwl/react": "^9.1.2",
     "@nrwl/workspace": "9.1.2",
     "@types/node": "~8.9.4",
