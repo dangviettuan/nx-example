@@ -1101,6 +1101,18 @@
     eslint-plugin-react "^7.18.3"
     eslint-plugin-react-hooks "^2.4.0"
 
+"@nrwl/storybook@^9.1.2":
+  version "9.1.2"
+  resolved "https://registry.yarnpkg.com/@nrwl/storybook/-/storybook-9.1.2.tgz#ec4e05ab3ba8b90d01567d3b46d3a3674510cb87"
+  integrity sha512-3QZTidkhtdUTsxdZGV2kalp95vpx9V99NuYYmeXX1Ob9pcvA2Q6lIooGUyrwhlf6J1SZA16Fds5JiGcttkRSGw==
+  dependencies:
+    "@nrwl/cypress" "9.1.2"
+    core-js "^3.2.1"
+    tree-kill "1.2.2"
+    ts-loader "5.3.1"
+    tsconfig-paths-webpack-plugin "3.2.0"
+    webpack-node-externals "1.7.2"
+
 "@nrwl/tao@9.1.2":
   version "9.1.2"
   resolved "https://registry.yarnpkg.com/@nrwl/tao/-/tao-9.1.2.tgz#823b45def6b1d8dd005ff700a6e40b9fd970b445"
@@ -8670,6 +8682,17 @@ tree-kill@1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/tree-kill/-/tree-kill-1.2.2.tgz#4ca09a9092c88b73a7cdc5e8a01b507b0790a0cc"
   integrity sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==
+
+ts-loader@5.3.1:
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-5.3.1.tgz#70614c8ec4354a9c8b89c9f97b2becb7a98a3980"
+  integrity sha512-fDDgpBH3SR8xlt2MasLdz3Yy611PQ/UY/KGyo7TgXhTRU/6sS8uGG0nJYnU1OdFBNKcoYbId1UTNaAOUn+i41g==
+  dependencies:
+    chalk "^2.3.0"
+    enhanced-resolve "^4.0.0"
+    loader-utils "^1.0.2"
+    micromatch "^3.1.4"
+    semver "^5.0.1"
 
 ts-loader@5.4.5, ts-loader@^5.3.1:
   version "5.4.5"
