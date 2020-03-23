@@ -17,6 +17,13 @@
     "store-e2e": {
       "tags": [],
       "implicitDependencies": ["store"]
+    },
+    "my-site": {
+      "tags": []
+    },
+    "my-site-e2e": {
+      "tags": [],
+      "implicitDependencies": ["my-site"]
     }
   }
 }
