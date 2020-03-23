@@ -24,6 +24,9 @@
     "my-site-e2e": {
       "tags": [],
       "implicitDependencies": ["my-site"]
+    },
+    "api": {
+      "tags": []
     }
   }
 }
