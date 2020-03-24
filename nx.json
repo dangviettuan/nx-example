@@ -10,5 +10,29 @@
     "tslint.json": "*",
     "nx.json": "*"
   },
-  "projects": {}
+  "projects": {
+    "store": {
+      "tags": []
+    },
+    "store-e2e": {
+      "tags": [],
+      "implicitDependencies": ["store"]
+    },
+    "my-site": {
+      "tags": []
+    },
+    "my-site-e2e": {
+      "tags": [],
+      "implicitDependencies": ["my-site"]
+    },
+    "api": {
+      "tags": []
+    },
+    "ui-header": {
+      "tags": []
+    },
+    "api-interface": {
+      "tags": []
+    }
+  }
 }
